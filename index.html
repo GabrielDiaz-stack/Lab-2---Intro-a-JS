@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Generador de password</title>
+        <script src="/script/script.js" defer></script>
+    </head>
+    <body>
+        <div class="mainCard">
+            <div class="password">
+                <input id="result" type="text" placeholder="Generated Password" disabled>
+                <button id="copy">Copiar</button>
+            </div>
+            
+            <div class="inputs">
+                <label>Size password</label>
+                <input id="size" type="number">
+            </div>
+
+            <div class="inputs">
+                <label>Capital letters are included</label>
+                <input id="capital" type="checkbox">
+            </div>
+
+            <div class="inputs">
+                <label>Lowercase letters are included</label>
+                <input id="lowercase" type="checkbox">
+            </div>
+
+            <div class="inputs">
+                <label>Numbers are included</label>
+                <input id="numbers" type="checkbox">
+            </div>
+
+            <div class="inputs">
+                <label>Symbols are included</label>
+                <input id="symbols" type="checkbox">
+            </div>
+
+            <button id="generate">Generate Password</button>
+
+        </div>
+    </body>
+</html>
