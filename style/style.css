@@ -42,21 +42,6 @@ body {
     font-weight: 600;
 }
 
-.password button {
-    padding: 0.75rem 1rem;
-    background-color: #e2e8f0;
-    color: #334155;
-    border: none;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background-color 0.2s;
-}
-
-.password button:hover {
-    background-color: #cbd5e1;
-}
-
 .inputs {
     display: flex;
     justify-content: space-between;
